@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-image: linear-gradient(
+    to top,
+    rgba(151, 149, 240, 0.39) 0%,
+    rgba(251, 198, 210, 0.356) 100%
+  );
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  font-size: 20px;
+}
+.navbar a :hover {
+background-color: red;
+  }
+
+.navbar-brand {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+.sam {
+  font-size: 28px;
+  font-family: "Gill Sans", sans-serif;
+}
+.diseño {
+  font-size: 50px;
+  margin: 80px ;
+  text-align: center;
+}.targeta{
+      font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+.targeta-item
+{
+  border-radius: 10px;
+}.targetas{
+  background-color: rgba(227, 202, 250, 0.39);
+  }
