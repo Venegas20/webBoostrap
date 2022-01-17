@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sansung S21 FE</title>
+    <title>Samsung S21 FE</title>
     <!-- css boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Boxicons CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="boxicons/node_modules/boxicons/css/boxicons.min.css">
     <!-- CSS PERSONALISADO -->
     <link rel="stylesheet" href="css/css.css">
     <!--  -->
     <!--  -->
 </head>
- <h1> Mi commit Online </h1>
+
 <body>
+    <!-- MENU DE NAVEGACION -->
     <header id="Inicio">
         <!-- MENU -->
         <div class="">
@@ -33,23 +33,23 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  nav anv-pills me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+                                <a class="nav-link BotonCerrarMenu " aria-current="page" href="#Inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Diseño">Diseño</a>
+                                <a class="nav-link BotonCerrarMenu " href="#Diseño">Diseño</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Caracteristicas">Caracteristicas</a>
+                                <a class="nav-link BotonCerrarMenu " href="#Caracteristicas">Caracteristicas</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                <a class="nav-link BotonCerrarMenu " href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Contacatanos
                                 </a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#Ayuda" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <a class="nav-link BotonCerrarMenuv " href="#Ayuda" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Soperte
                                 </a>
                             </li>
@@ -88,13 +88,14 @@
                 Galaxy S21</p>
         </div>
     </div>
-    <div class="general" id=" Diseño ">
-        <section class=" " id="Diseño">
-            <div class="col-12 p-3">
+    <div class="general" id="Diseño">
+        <section class=" ">
+            <div class="">
                 <div class="text-center ">
-                    <h1 class="diseño mx-auto " style="  font-family:Impact, 'Arial Narrow Bold', sans-serif ">DISEÑO
+                    <h1 class="diseño mx-auto  mt-5" style="  font-family:Impact, 'Arial Narrow Bold', sans-serif ">
+                        DISEÑO
                     </h1>
-                    <h1 class="mx-auto p-2" style="margin: 50px 50px;">HECHOS PARA ATRAER MIRADAS</h1>
+                    <h1 class="mx-auto pt-3 w-75">HECHOS PARA ATRAER MIRADAS</h1>
                 </div>
                 <!-- IMAGEN -->
                 <div class="">
@@ -104,10 +105,10 @@
         </section>
 
         <!-- CARDS DE IMAGENES -->
-        <section class="targetas">
-            <div class=" cards row ">
+        <section class="targetas p-4">
+            <div class=" cards row  ">
                 <!-- Tarjeta 1 -->
-                <div class=" col-md-6  col-sm-6 targeta">
+                <div class=" col-md-6 col-xl-3  col-sm-6 targeta mt-4 ">
                     <div class="card h-100">
                         <img src="img/s21-fe-1.jpg" class="card-img-top img-fluid " alt="...">
                         <div class="card-body ">
@@ -117,7 +118,7 @@
                     </div>
                 </div>
                 <!-- Tarjeta 2 -->
-                <div class=" col-md-3 col-sm-6 ">
+                <div class=" col-md-6 col-xl-3 col-sm-6 mt-4 ">
                     <div class="card targeta h-100  ">
                         <img src="img/rauw.jpg" class="  card-img-top img-fluid" alt="...">
                         <div class="card-body">
@@ -126,7 +127,7 @@
                     </div>
                 </div>
                 <!-- Tarjeta 3 -->
-                <div class=" col-md-3 col-sm-6 ">
+                <div class=" col-md-6 col-xl-3 col-sm-6 mt-4">
                     <div class="card  targeta  h-100">
                         <img src="img/S21FE1.webp" class="  card-img-top img-fluid" alt="...">
                         <div class="card-body">
@@ -134,9 +135,9 @@
 
                         </div>
                     </div>
-                      <!-- Tarjeta 4 -->
+                    <!-- Tarjeta 4 -->
                 </div>
-                <div class=" col-md-3 col-sm-6 ">
+                <div class=" col-md-6 col-xl-3 col-sm-6  mt-4 text-center">
                     <div class="card  targeta  h-100">
                         <img src="img/S21FE1.webp" class="  card-img-top img-fluid" alt="...">
                         <div class="card-body">
@@ -148,10 +149,9 @@
             </div>
         </section>
 
-
         <section>
-            <div class="col">
-                <div class="p-1 carousel-inner ">
+            <div class="">
+                <div class=" p-1 carousel-inner ">
                     <img class=" w-100 img-fluid" src="img/fa.jpg" alt="">
                     <div class="carousel-caption">
                         <h1 class=" d-none d-md-block text-warning"
@@ -163,19 +163,21 @@
             </div>
         </section>
 
-        <section>
+        <section class=" mx-auto  text-center" id="gorilaGlass">
             <div class="row p-5">
-                <div>
+                <div class=" row">
                     <h1 class="text-center">Olvídate de las roturas, descubre una pantalla más resistente</h1>
 
-                    <div class="row text-center  p-5">
-                        <p class="" style=" font-size:x-large;">
+                    <div class=" text-center p-2 pt-3">
+                        <p class=" fs-4">
                             “¡Ups!” ya no formará parte de tu vocabulario gracias al Gorilla® Glass Victus™, el vidrio
                             más
-                            resistente que tiene un teléfono inteligente Samsung Galaxy.
+                            resistente que tiene un teléfono inteligente <span class="text-primary">Samsung
+                                Galaxy</span>.
                         </p>
-                        <p class="p-5" style="font-size:x-large;">
-                            *En comparación con el Galaxy S20 FE anterior. El vidrio Corning® Gorilla® Glass Victus™
+                        <p class="fs-4 pt-4">
+                            En comparación con el <span class="text-primary">Galaxy S20 FE</span> anterior. El vidrio
+                            Corning® Gorilla® Glass Victus™
                             solo
                             está disponible en la pantalla Cover Screen. Este Gorilla Glass es el más resistente que se
                             ha
@@ -183,148 +185,127 @@
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="img/galaxy-s21-5g_fe_gorilla_m.webp" alt="">
             </div>
+            <img class="img-fluid" src="img/galaxy-s21-5g_fe_gorilla_m.webp" alt="">
         </section>
     </div>
 
-
     <!-- CARACTERISTICAS -->
-    <h2 class="text-center p-4 shadow-sm p-3 mb-5 bg-body rounded ">Ficha técnica del Samsung Galaxy S21 FE 5G
+    <h2 class="text-center p-4 shadow-sm p-4 mb-5 bg-body rounded ">Ficha técnica del Samsung Galaxy S21 FE 5G
     </h2>
-    <table class="table p-5 container">
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Descripcion</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>PANTALLA</th>
-                <th>Dynamic AMOLED 2X de 6,4 pulgadas Resolución FullHD+ (2.340 x 1.080 píxeles, 401 ppp) Tasa de
-                    refresco: 120 Hz; muestreo táctil: 240 Hz</th>
-            </tr>
-            <tr>
-                <th>PROCESADOR</th>
-                <th>Snapdragon 888</th>
-            </tr>
-                        <tr>
-                <th>RAM</th>
-                <th>6 GB / 8 GB</th>
-            </tr>
-            <tr>
-                <th>PANTALLA</th>
-                <th>Dynamic AMOLED 2X de 6,4 pulgadas Resolución FullHD+ (2.340 x 1.080 píxeles, 401 ppp) Tasa de
-                    refresco: 120 Hz; muestreo táctil: 240 Hz</th>
-            </tr>
-            <tr>
-                <th>PANTALLA</th>
-                <th>Dynamic AMOLED 2X de 6,4 pulgadas Resolución FullHD+ (2.340 x 1.080 píxeles, 401 ppp) Tasa de
-                    refresco: 120 Hz; muestreo táctil: 240 Hz</th>
-            </tr>
-        </tbody>
-    </table>
-    <section class="p-5 m-5" id="Caracteristicas">
+    <div class="table-responsive-sm" id="Caracteristicas">
+        <table class="table p-5 container table table-hover table align-middle">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Descripcion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>PANTALLA</th>
+                    <th>Dynamic AMOLED 2X de 6,4 pulgadas Resolución FullHD+ (2.340 x 1.080 píxeles, 401 ppp)
+                        <br> Tasa de refresco: 120 Hz; muestreo táctil: 240 Hz
+                    </th>
+                </tr>
+                <tr>
+                    <th>PROCESADOR</th>
+                    <th>Snapdragon 888</th>
+                </tr>
+                <tr>
+                    <th>RAM</th>
+                    <th>6 GB / 8 GB</th>
+                </tr>
+                <tr>
+                    <th>ALMACENAMIENTO</th>
+                    <th>128 GB / 256 GB</th>
+                </tr>
+                <tr>
+                    <th>CÁMARA FRONTAL</th>
+                    <th>32 MP f/2.2</th>
+                </tr>
+                <tr>
+                    <th>CÁMARA TRASERA</th>
+                    <th>Principal: 12 MP f/1.8, OIS, 1/1.76”, 1,8 micras
+                        <br> Gran angular: 12 MP f/2.2, 1/2,8”, 1,12 micras
+                        <br> Teleobjetivo: 8 MP f/2.4 (3x), OIS, 1/4,4”, 1,0 micras
+                    </th>
+                </tr>
+                <tr>
+                    <th>BATERÍA</th>
+                    <th> 4.500 mAh
+                        <br>Carga rápida 25 W
+                        <br>Carga inalámbrica 15 W
+                    </th>
+                </tr>
+                <tr>
+                    <th>SISTEMA OPERATIVO</th>
+                    <th>One UI 4.0 basado en Android 12</th>
+                </tr>
+                <tr>
+                    <th>CONECTIVIDAD</th>
+                    <th>5G Sub6
+                        <br>Wi-Fi
+                        <br> Bluetooth
+                        <br>NFC
+                        USB-C
+                    </th>
+                </tr>
+                <tr>
+                    <th>OTROS</th>
+                    <th>Lector de huellas en pantalla
+                        Certificación IP68</th>
+                </tr>
+                <tr>
+                    <th>DIMENSIONES Y PESO</th>
+                    <th>155,7 x 74,5 x 7,9 mm
+                        177 g</th>
+                </tr>
+                <tr>
+                    <th>PRECIO</th>
+                    <th>6GB/128GB: $866,42 dolares
+                        <br>8GB/256GB: $942,90 dolares
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-        <div class="row p-auto m-auto ">
+    <!--==========================================
+                    REDES SACIALES
+        ========================================== -->
+    <footer class=" bg light text-center  mt-5">
+        <div class=" container p-4 pb-0">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5>Lorem</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur inventore, error doloremque
+                            dignissimos sint voluptatem nam eveniet exercitationem quo cupiditate.</p>
+                    </div>
 
-
-            <div class="text-center">
-                <h4>PANTALLA </h4>
-                <P>
-                    Dynamic AMOLED 2X de 6,4 pulgadas
-                    Resolución FullHD+ (2.340 x 1.080 píxeles, 401 ppp)
-                    Tasa de refresco: 120 Hz; muestreo táctil: 240 Hz</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>PROCESADOR</h4>
-                <P>
-                    Snapdragon 888</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>RAM</h4>
-                <P>
-                    6 GB / 8 GB</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>ALMACENAMIENTO </h4>
-                <P>
-                    128 GB / 256 GB</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>CÁMARA FRONTAL </h4>
-                <P>
-                    32 MP f/2.2</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>CÁMARA TRASERA</h4>
-                <P>
-                    Principal: 12 MP f/1.8, OIS, 1/1.76”, 1,8 micras
-                    Gran angular: 12 MP f/2.2, 1/2,8”, 1,12 micras
-                    Teleobjetivo: 8 MP f/2.4 (3x), OIS, 1/4,4”, 1,0 micras</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>BATERÍA</h4>
-                <P>
-                    4.500 mAh
-                    Carga rápida 25 W
-                    Carga inalámbrica 15 W</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4> SISTEMA OPERATIVO </h4>
-                <P>
-                    One UI 4.0 basado en Android 12
-
-                </P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>CONECTIVIDAD</h4>
-                <P>
-                    5G Sub6 <br>
-                    Wi-Fi<br>
-                    Bluetooth<br>
-                    NFC<br>
-                    USB-C</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>OTROS</h4>
-                <P>
-                    Lector de huellas en pantalla
-                    Certificación IP68</P>
-            </div>
-            <hr>
-            <div class=" text-center">
-                <h4>DIMENSIONES Y PESO</h4>
-                <P>
-                    155,7 x 74,5 x 7,9 mm
-                    177 g
-                    <hr>
-                <div class=" text-center">
-                    <h4>PRECIO</h4>
-                    <P>
-                        6GB/128GB: 759 euros
-                        8GB/256GB: 829 euros</P>
+                    <div class="col-lg-6">
+                        <h5>Lorem </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ab!</p>
+                    </div>
                 </div>
-                <hr>
             </div>
 
-    </section>
-
-    <footer id="Ayuda" class="">
-
-
+            <section id="redes-sociales mb-4 ">
+                <!--facebook-->
+                <a href="#"><i class="fs-3 floating m-4   btn-floating m-4 bx bxl-facebook-square"></i></a>
+                <!-- twitter -->
+                <a href="#"><i class="fs-3 bx bxl-twitter btn-floating m-4 "></i></a>
+                <!--Instagram  -->
+                <a href="#"><i class="fs-3 bx bxl-instagram-alt btn-floating m-4 "></i></a>
+                <!--WhatsApp  -->
+                <a href="#"><i class="fs-3 bx bxl-whatsapp-square btn-floating m-4 "></i></a>
+            </section>
+        </div>
+        <div class=" fs-5 text-center text-primary p-4" id="footer-Item"> © 2022 Copyright: Venegas™ </div>
 
     </footer>
+
     <!-- SCRIPT JS BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -332,9 +313,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-
+    <!--  jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <!-- js PERSONALISADO -->
     <script src="js/menu.js"></script>
+    <!-- boxicons -->
+    <script src="boxicons/node_modules/boxicons/dist/boxicons.js"></script>
+
 </body>
 
 </html>

@@ -15,8 +15,8 @@
   font-size: 20px;
 }
 .navbar a :hover {
-background-color: red;
-  }
+  background-color: red;
+}
 
 .navbar-brand {
   font-family: Impact, "Arial Narrow Bold", sans-serif;
@@ -27,14 +27,52 @@ background-color: red;
 }
 .diseño {
   font-size: 50px;
-  margin: 80px ;
-  text-align: center;
-}.targeta{
-      font-family: Impact, "Arial Narrow Bold", sans-serif;
+ text-align: center;
 }
-.targeta-item
-{
+.targeta {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+.targeta-item {
   border-radius: 10px;
-}.targetas{
+}
+.targetas {
   background-color: rgba(227, 202, 250, 0.39);
-  }
+}
+#footer-Item {
+  background-color: rgba(0, 0, 0, 0.26)
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.733)
+}
+/* redes sociales */
+#redes-sociales{
+  text-decoration: none;
+}
+
+/*==========================================
+  MEDIA QUERIES PANTALLA SAMLLL EXTRA PEQUEÑA
+  ==========================================*/
+@media (max-width: 576px) {
+}
+
+/*==========================================
+    MEDIA QUERIES PANTALLA  SAMLLL 
+  ==========================================*/
+@media (max-width: 768px) {
+}
+
+/*==========================================
+    MEDIA QUERIES PANTALLA   MEDIUM
+  ==========================================*/
+@media (max-width: 992px) {
+}
+/*==========================================
+      MEDIA QUERIES PANTALLA   LARGE
+  ==========================================*/
+@media (max-width: 1200px) {
+}
+/*==========================================
+          MEDIA QUERIES PANTALLA   MEDIUM
+  ==========================================*/
+@media (max-width: 1400PX) {
+}
